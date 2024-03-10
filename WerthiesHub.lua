@@ -1,7 +1,8 @@
 --[[
 // Werthies Hub - Alpha v0.1
+// Some sorta script hub type thingy, little messy though!!
 
-Some sorta script hub type thingy, little messy though!!
+// loadstring(game:HttpGet("https://raw.githubusercontent.com/W3rthie/Silly-lego-game-scripts/main/WerthiesHub.lua"))()
 ]] 
 
 local coreGui = game:GetService("CoreGui")
@@ -139,5 +140,3 @@ home.MouseButton1Click:Connect(setupCategory)
 contextActionService:BindAction("toggle", toggleInterface, false, Enum.KeyCode.KeypadFive)
 
 setupCategory()
-
--- // loadstring(game:HttpGet("https://raw.githubusercontent.com/W3rthie/Silly-lego-game-scripts/main/WerthiesHub.lua"))()
