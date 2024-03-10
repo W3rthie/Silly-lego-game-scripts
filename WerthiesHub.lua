@@ -1,4 +1,8 @@
--- Alpha v0.1
+--[[
+// Werthies Hub - Alpha v0.1
+
+Some sorta script hub type thingy
+]] 
 
 local coreGui = game:GetService("CoreGui")
 local playerService = game:GetService("Players")
