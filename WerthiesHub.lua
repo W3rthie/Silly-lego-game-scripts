@@ -140,3 +140,5 @@ home.MouseButton1Click:Connect(setupCategory)
 contextActionService:BindAction("toggle", toggleInterface, false, Enum.KeyCode.KeypadFive)
 
 setupCategory()
+
+-- // loadstring(game:HttpGet("https://raw.githubusercontent.com/W3rthie/Silly-lego-game-scripts/main/WerthiesHub.lua"))()
