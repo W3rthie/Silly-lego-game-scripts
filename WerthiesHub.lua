@@ -1,3 +1,5 @@
+-- Alpha v0.1
+
 local coreGui = game:GetService("CoreGui")
 local playerService = game:GetService("Players")
 local teams = game:GetService("Teams")
