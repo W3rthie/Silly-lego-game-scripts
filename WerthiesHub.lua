@@ -1,7 +1,7 @@
 --[[
 // Werthies Hub - Alpha v0.1
 
-Some sorta script hub type thingy
+Some sorta script hub type thingy, little messy though!!
 ]] 
 
 local coreGui = game:GetService("CoreGui")
@@ -48,7 +48,7 @@ function commands.nukeDispensers(enemyOnly)
 	if getgenv().nukeDispensers then
 		getgenv().nukeDispensers = false
 
-		return warn("Nuke disabled.")
+		return
 	end
 
 	local teamColors = {
@@ -57,7 +57,6 @@ function commands.nukeDispensers(enemyOnly)
 	}
 
 	getgenv().nukeDispensers = true
-	warn("Nuke enabled")
 
 	while getgenv().nukeDispensers do
 		local dispensers, team = zeppelinWars.getDispensers(), teamColors[player.Team.Name]
